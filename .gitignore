@@ -1,0 +1,14 @@
+# Simulation build/output artifacts
+**/DMAC/SIM/OUTPUT/
+**/DMAC/SIM/simv
+**/DMAC/SIM/*.vcd
+**/DMAC/SIM/ucli.key
+**/DMAC/SIM/verdi_config_file
+
+# Common simulator/generated directories
+*.daidir/
+csrc/
+
+# Report PDF (excluded before git upload)
+Project1. Gate level DMA Engine.pdf
+
