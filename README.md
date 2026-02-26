@@ -1,15 +1,17 @@
 ﻿# Project1: Gate-Level DMA Engine
 
+
 ## 프로젝트 소개
 Gate-Level 기반 DMA 엔진을 FSM 인코딩 방식에 따른 두 가지 방식으로 설계한 프로젝트입니다.  
 
 ## 프로젝트 핵심
-- FSM 인코딩 방식 비교
+- 목표: 동일 DMA 기능을 서로 다른 FSM 인코딩으로 구현FSM 인코딩 방식 비교
   - `STEP1_ONEHOT`: One-hot 인코딩
   - `STEP2_NORMAL`: 일반(Binary) 인코딩
+<img width="600" height="337.5" alt="pdf_page13" src="https://github.com/user-attachments/assets/90c2083c-4f79-48cd-be1f-909d0f79d624" />
+<img width="600" height="337.5" alt="pdf_page15" src="https://github.com/user-attachments/assets/b76e810f-58a5-4a8a-8b97-07afbaff3d8b" />
 
-## 프로젝트 개요
-- 목표: 동일 DMA 기능을 서로 다른 FSM 인코딩으로 구현
+
 - 주요 파일
   - `STEP1_ONEHOT/DMAC/RTL/DMAC_ENGINE.sv`
   - `STEP2_NORMAL/DMAC/RTL/DMAC_ENGINE.sv`
